@@ -23,15 +23,15 @@ import { MinhasReservasComponent } from './pages/minhas-reservas/minhas-reservas
     LoginComponent,
     CadastroComponent,
     ConfirmacaoComponent,
-    MinhasReservasComponent
+    MinhasReservasComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    HttpClientModule,
-
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
