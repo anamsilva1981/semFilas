@@ -13,6 +13,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { ConfirmacaoComponent } from './pages/confirmacao/confirmacao.component';
 import { MinhasReservasComponent } from './pages/minhas-reservas/minhas-reservas.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { MinhasReservasComponent } from './pages/minhas-reservas/minhas-reservas
     CadastroComponent,
     ConfirmacaoComponent,
     MinhasReservasComponent,
+    NavbarComponent,
+    FooterComponent,
 
   ],
   imports: [
