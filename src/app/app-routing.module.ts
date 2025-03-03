@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'cadastro', component: CadastroComponent },
   { path: 'confirmacao', component: ConfirmacaoComponent },
-  { path: 'minhas-reservas', component: MinhasReservasComponent }
+  { path: '', component: MinhasReservasComponent }
 ];
 
 @NgModule({
