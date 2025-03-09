@@ -10,6 +10,7 @@ import { MinhasReservasComponent } from './pages/minhas-reservas/minhas-reservas
 
 const routes: Routes = [
   { path: '', redirectTo: '/restaurantes', pathMatch: 'full' }, // Redireciona pra lista de restaurantes
+  { path: 'home', component: RestaurantesComponent }, // Adicione a rota 'home'
   { path: 'restaurantes', component: RestaurantesComponent },
   { path: 'restaurantes/:id', component: DetalhesRestauranteComponent }, // Usa parâmetro de rota (id)
   { path: 'reserva/:id', component: ReservaComponent }, // Passa o id do restaurante

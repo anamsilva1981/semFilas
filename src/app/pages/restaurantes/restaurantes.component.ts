@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 
 
+
 @Component({
   selector: 'app-restaurantes',
   templateUrl: './restaurantes.component.html',
@@ -11,5 +12,7 @@ import { CardComponent } from '../card/card.component';
 })
 export class RestaurantesComponent {
 
+  
+  
   
 }

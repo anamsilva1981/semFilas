@@ -12,3 +12,13 @@ export interface Product {
     image?: string;
     rating?: number;
 }
+
+export interface Restaurantes {
+    id?: string;
+    name?: string;
+    description?: string;
+    rating?: number;
+    image?: string;
+    category?: string;
+    deliveryEstimate?: string;
+}

@@ -1,0 +1,94 @@
+{
+  "restaurantes": [
+    {
+      "id": "1",
+      "name": "La Pizzeria",
+      "description": "A melhor pizza artesanal da cidade.",
+      "rating": 4.8,
+      "image": "./../assets/logotipo.png",
+      "category": "Italiana",
+      "deliveryEstimate": "30-45min"
+    },
+    {
+      "id": "2",
+      "name": "Sushi Express",
+      "description": "Sushis e sashimis fresquinhos direto para você.",
+      "rating": 4.7,
+      "image": "./../assets/logotipo.png",
+      "category": "Japonesa",
+      "deliveryEstimate": "25-35min"
+    },
+    {
+      "id": "3",
+      "name": "Churrascaria Gaúcha",
+      "description": "Carnes nobres e aquele tempero brasileiro.",
+      "rating": 4.9,
+      "image": "./../assets/logotipo.png",
+      "category": "Brasileira",
+      "deliveryEstimate": "50-60min"
+    },
+    {
+      "id": "4",
+      "name": "Veggie Delight",
+      "description": "Opções 100% vegetarianas e saborosas.",
+      "rating": 4.6,
+      "image": "./../assets/logotipo.png",
+      "category": "Vegetariana",
+      "deliveryEstimate": "20-30min"
+    },
+    {
+      "id": "5",
+      "name": "Hamburgueria Prime",
+      "description": "Os melhores burgers artesanais com ingredientes frescos.",
+      "rating": 4.8,
+      "image": "./../assets/logotipo.png",
+      "category": "Lanches",
+      "deliveryEstimate": "15-25min"
+    },
+    {
+      "id": "6",
+      "name": "Cantina da Mama",
+      "description": "Massas frescas com aquele toque caseiro.",
+      "rating": 4.9,
+      "image": "./../assets/logotipo.png",
+      "category": "Italiana",
+      "deliveryEstimate": "40-50min"
+    },
+    {
+      "id": "7",
+      "name": "Doceria Sonho Doce",
+      "description": "Sobremesas irresistíveis para adoçar o seu dia.",
+      "rating": 4.7,
+      "image": "./../assets/logotipo.png",
+      "category": "Doces",
+      "deliveryEstimate": "10-20min"
+    },
+    {
+      "id": "8",
+      "name": "Taco Loco",
+      "description": "Tacos autênticos e saborosos direto do México.",
+      "rating": 4.5,
+      "image": "./../assets/logotipo.png",
+      "category": "Mexicana",
+      "deliveryEstimate": "25-35min"
+    },
+    {
+      "id": "9",
+      "name": "Bistrô Parisiense",
+      "description": "Clássicos franceses preparados com carinho.",
+      "rating": 4.8,
+      "image": "./../assets/logotipo.png",
+      "category": "Francesa",
+      "deliveryEstimate": "45-55min"
+    },
+    {
+      "id": "10",
+      "name": "Cantinho Mineiro",
+      "description": "Comida mineira com aquele gostinho de casa.",
+      "rating": 4.9,
+      "image": "./../assets/logotipo.png",
+      "category": "Brasileira",
+      "deliveryEstimate": "30-40min"
+    }
+  ]
+}
