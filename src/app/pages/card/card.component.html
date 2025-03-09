@@ -1,16 +1,17 @@
 
-<p-card styleClass="pagging-top: 100px;">
-    <div class="flex flex-row align-items-center justify-content-center" style="width: 100%;">
-        <div style="width: 100px; height: 100px;" class=" align-items: center; justify-content: center;">
-            <img src="../../../assets/logotipo.png" style="width: 100px;" />
-        </div>
-        <div style="width: 70%;" >
-            <h3 style="margin-bottom: 10px;">MIT Restaurante </h3>
-            <h5 style="margin-top: 0; margin-bottom: 10px;">Comida caseira <i class="pi pi-sliders-h"></i></h5>
-            <p style="margin-top: 0;">
-                Menu descomplicado de carnes, frango e opções vegetarianas.
-            </p>
-            
-        </div>
+<p-card styleClass="pt-5">
+    <div class="flex align-items-center justify-content-center w-full gap-3" *ngFor="let restaurante of restaurantes">
+      <img [src]="restaurante.image" class="w-6rem h-6rem" alt="{{restaurante.name}}" />
+  
+      <div class="w-8">
+        <h3 class="mb-2"> {{ restaurante.name }}</h3>
+        <h5 class="mt-0 mb-2 flex align-items-center gap-2">
+          {{ restaurante.category }} <i class="pi pi-sliders-h"></i>
+        </h5>
+        <p class="mt-0">
+          {{ restaurante.description}}
+        </p>
+      </div>
     </div>
-</p-card>
+  </p-card>
+  
