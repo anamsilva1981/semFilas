@@ -1,0 +1,32 @@
+<div class="home-container">
+    <!-- Header -->
+    <header class="header">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+      <p class="tagline">Reserve sua mesa sem filas</p>
+    </header>
+  
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+      <h1 class="title">Onde você está?</h1>
+      
+      <div class="options">
+        <!-- Botão Manual -->
+        <button class="option-button" (click)="openManualRegion()">
+          <span class="icon">🌐</span>
+          <span class="text">Escolher região manual</span>
+        </button>
+        
+        <!-- Botão GPS -->
+        <button class="option-button" (click)="requestLocation()">
+          <span class="icon">📍</span>
+          <span class="text">Usar minha localização</span>
+        </button>
+      </div>
+    </main>
+  
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Sua localização só será usada para mostrar restaurantes próximos.</p>
+    </footer>
+  </div>
+
